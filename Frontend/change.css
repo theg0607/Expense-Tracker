@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #3a3984;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    background-color: rgb(155, 184, 226);
+    height: 649px;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.hero{
+    height: 220px;
+    width: 400px;
+    background-color: #3a3984;
+    text-align: center;
+}

@@ -1,0 +1,140 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #3a3984;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    background-color: rgb(155, 184, 226);
+    height: 649px;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.hero{
+    height: 220px;
+    width: 400px;
+    background-color: #3a3984;
+    text-align: center;
+} */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Outer container */
+.box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Inner content */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+/* Labels */
+.hero label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Input fields */
+.book {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.book:focus {
+  border-color: #2575fc;
+  outline: none;
+  box-shadow: 0 0 6px rgba(37, 117, 252, 0.3);
+}
+
+/* Button */
+#signup {
+  background: #2575fc;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#signup:hover {
+  background: #1a5ed7;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(26, 94, 215, 0.3);
+}
+
+/* Link */
+.hero a {
+  text-align: center;
+  color: #2575fc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-top: 10px;
+  transition: color 0.3s;
+}
+
+.hero a:hover {
+  color: #1a5ed7;
+  text-decoration: underline;
+}
