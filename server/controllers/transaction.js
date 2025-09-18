@@ -3,7 +3,7 @@ const Transaction=require("../models/transaction")
 exports.getTransaction=async(req,res)=>{
     try {
         const {userId}=req
-        const transaction=await Transaction.findone({
+        const transaction=await Transaction.find({
             userId:userId
         })
         res.send(transaction)
