@@ -91,7 +91,7 @@ function calculateSummary() {
 
 // ------------------Other Buttons---------------------
 changePassword.addEventListener("click", () => {
-    window.location.href = "/Frontend/change.html"
+    window.location.href = "/Frontend/changePassword.html"
 })
 
 logOut.addEventListener("click", () => {
